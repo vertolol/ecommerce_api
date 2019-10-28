@@ -1,15 +1,11 @@
 from rest_framework import serializers
 from .models import Category
 from products.serializers import ProductSerializer
+from .conf import FILTER_PRICE, FILTER_RANGE, FILTER_CONTAINS
 
 
 import re
 from django.db.models import Q
-
-
-FILTER_PRICE = 'price'
-FILTER_RANGE = 'fr'
-FILTER_CONTAINS = 'f'
 
 
 class CategorySerializer(serializers.ModelSerializer):

@@ -1,4 +1,9 @@
+# filter alias
+FILTER_PRICE = 'price'
+FILTER_RANGE = 'fr'
+FILTER_CONTAINS = 'f'
 
+# category attributes
 notebooks = {
     'brand': ('Acer', 'Asus', 'Apple', 'HP', 'Lenovo'), #f
     'color': ('black', 'white', 'red', 'orange', 'green', 'brown', 'gray'), #f
@@ -14,4 +19,5 @@ notebooks = {
     'OS': ('DOS', 'Unix', 'Windows', 'macOS') #f
 }
 
+# url example
 # ?price=900-2100&f[color]=black-white&f[diagonal]=15-17-18&fr[weight]=0-3&f[resolution]=1600x900-1920x1080
