@@ -1,4 +1,4 @@
 Django==2.2.6
 django_autoslug==1.9.6
 django_mptt==0.10.0
-djangorestframework==3.10.3
+djangorestframework==3.11.2
